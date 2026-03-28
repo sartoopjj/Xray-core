@@ -148,7 +148,8 @@ func (s *clientConnections) openConnection(ctx context.Context, destAddr net.Add
 	case *net.UDPConn:
 		udpConn = conn
 	case *internet.PacketConnWrapper:
-		udpConn = conn.Conn.(*net.UDPConn)
+		udpConn = conn.PacketConn.(*net.UDPConn)
+		// udpConn = conn.Conn.(*net.UDPConn)
 	default:
 		// TODO: Support sockopt for QUIC
 		rawConn.Close()

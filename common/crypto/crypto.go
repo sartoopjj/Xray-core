@@ -5,7 +5,7 @@ import (
 	"crypto/rand"
 	"math/big"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/GFW-knocker/Xray-core/common"
 )
 
 // [,)

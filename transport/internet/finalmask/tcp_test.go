@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/transport/internet/finalmask"
-	"github.com/xtls/xray-core/transport/internet/finalmask/header/custom"
+	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask"
+	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/custom"
 )
 
 func mustSendRecvTcp(

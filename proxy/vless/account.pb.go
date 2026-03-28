@@ -7,7 +7,7 @@
 package vless
 
 import (
-	proxyman "github.com/xtls/xray-core/app/proxyman"
+	proxyman "github.com/GFW-knocker/Xray-core/app/proxyman"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

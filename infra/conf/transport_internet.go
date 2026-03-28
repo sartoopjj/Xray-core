@@ -20,6 +20,8 @@ import (
 	"github.com/GFW-knocker/Xray-core/common/serial"
 	"github.com/GFW-knocker/Xray-core/transport/internet"
 	"github.com/GFW-knocker/Xray-core/transport/internet/dnstt"
+	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/fragment"
+	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/custom"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/dns"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/dtls"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/srtp"
@@ -28,7 +30,9 @@ import (
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/wireguard"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/mkcp/aes128gcm"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/mkcp/original"
+	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/noise"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/salamander"
+	finalsudoku "github.com/GFW-knocker/Xray-core/transport/internet/finalmask/sudoku"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/xdns"
 	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/xicmp"
 	"github.com/GFW-knocker/Xray-core/transport/internet/httpupgrade"
@@ -40,15 +44,6 @@ import (
 	"github.com/GFW-knocker/Xray-core/transport/internet/tcp"
 	"github.com/GFW-knocker/Xray-core/transport/internet/tls"
 	"github.com/GFW-knocker/Xray-core/transport/internet/websocket"
-
-	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/fragment"
-	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/header/custom"
-
-	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/noise"
-
-	finalsudoku "github.com/GFW-knocker/Xray-core/transport/internet/finalmask/sudoku"
-	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/xdns"
-	"github.com/GFW-knocker/Xray-core/transport/internet/finalmask/xicmp"
 	"google.golang.org/protobuf/proto"
 )
 
