@@ -42,11 +42,13 @@ https://github.com/XTLS/Xray-core
   - [Marzban](https://github.com/Gozargah/Marzban)
   - [Hiddify](https://github.com/hiddify/Hiddify-Manager)
   - [TX-UI](https://github.com/AghayeCoder/tx-ui)
+  - [CELERITY](https://github.com/ClickDevTech/CELERITY-panel)
 - One Click
   - [Xray-REALITY](https://github.com/zxcvos/Xray-script), [xray-reality](https://github.com/sajjaddg/xray-reality), [reality-ezpz](https://github.com/aleskxyz/reality-ezpz)
   - [Xray_bash_onekey](https://github.com/hello-yunshu/Xray_bash_onekey), [XTool](https://github.com/LordPenguin666/XTool), [VPainLess](https://github.com/vpainless/vpainless)
   - [v2ray-agent](https://github.com/mack-a/v2ray-agent), [Xray_onekey](https://github.com/wulabing/Xray_onekey), [ProxySU](https://github.com/proxysu/ProxySU)
 - Magisk
+  - [NetProxy-Magisk](https://github.com/Fanju6/NetProxy-Magisk)
   - [Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk)
   - [Xray_For_Magisk](https://github.com/E7KMbb/Xray_For_Magisk)
 - Homebrew
@@ -83,17 +85,21 @@ https://github.com/XTLS/Xray-core
   - [Furious](https://github.com/LorenEteval/Furious)
   - [Invisible Man - Xray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient)
   - [AnyPortal](https://github.com/AnyPortal/AnyPortal)
+  - [GenyConnect](https://github.com/genyleap/GenyConnect)
 - Android
   - [MahsaNG](https://github.com/GFW-knocker/MahsaNG)
   - [v2rayNG](https://github.com/2dust/v2rayNG)
   - [X-flutter](https://github.com/XTLS/X-flutter)
   - [SaeedDev94/Xray](https://github.com/SaeedDev94/Xray)
   - [SimpleXray](https://github.com/lhear/SimpleXray)
+  - [XrayFA](https://github.com/Q7DF1/XrayFA)
   - [AnyPortal](https://github.com/AnyPortal/AnyPortal)
+  - [NetProxy-Magisk](https://github.com/Fanju6/NetProxy-Magisk)
 - iOS & macOS arm64 & tvOS
   - [Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215) | [Happ RU](https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973) | [Happ tvOS](https://apps.apple.com/us/app/happ-proxy-utility-for-tv/id6748297274)
   - [Streisand](https://apps.apple.com/app/streisand/id6450534064)
   - [OneXray](https://github.com/OneXray/OneXray)
+  - [INCY](https://apps.apple.com/en/app/incy/id6756943388)
 - macOS arm64 & x64
   - [Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215) | [Happ RU](https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973)
   - [V2rayU](https://github.com/yanue/V2rayU)
@@ -103,6 +109,8 @@ https://github.com/XTLS/Xray-core
   - [GoXRay](https://github.com/goxray/desktop)
   - [AnyPortal](https://github.com/AnyPortal/AnyPortal)
   - [v2rayN](https://github.com/2dust/v2rayN)
+  - [GenyConnect](https://github.com/genyleap/GenyConnect)
+  - [INCY](https://apps.apple.com/en/app/incy/id6756943388)
 - Linux
   - [v2rayA](https://github.com/v2rayA/v2rayA)
   - [Furious](https://github.com/LorenEteval/Furious)
@@ -110,6 +118,7 @@ https://github.com/XTLS/Xray-core
   - [GoXRay](https://github.com/goxray/desktop)
   - [AnyPortal](https://github.com/AnyPortal/AnyPortal)
   - [v2rayN](https://github.com/2dust/v2rayN)
+  - [GenyConnect](https://github.com/genyleap/GenyConnect)
 
 ## Others that support VLESS, XTLS, REALITY, XUDP, PLUX...
 

@@ -25,12 +25,7 @@ func (c *Config) GetRequestHeader() http.Header {
 	for k, v := range c.Header {
 		header.Add(k, v)
 	}
-
-	// header.Set("Host", c.Host)
-
-	if header.Get("User-Agent") == "" {
-		header.Set("User-Agent", utils.ChromeUA)
-	}
+	utils.TryDefaultHeadersWith(header, "ws")
 	return header
 }
 

@@ -8,24 +8,7 @@ import (
 	"strings"
 
 	"github.com/GFW-knocker/Xray-core/common"
-	"github.com/GFW-knocker/Xray-core/common/log"
-	"github.com/GFW-knocker/wireguard/device"
 )
-
-var wgLogger = &device.Logger{
-	Verbosef: func(format string, args ...any) {
-		log.Record(&log.GeneralMessage{
-			Severity: log.Severity_Debug,
-			Content:  fmt.Sprintf(format, args...),
-		})
-	},
-	Errorf: func(format string, args ...any) {
-		log.Record(&log.GeneralMessage{
-			Severity: log.Severity_Error,
-			Content:  fmt.Sprintf(format, args...),
-		})
-	},
-}
 
 func init() {
 	common.Must(common.RegisterConfig((*DeviceConfig)(nil), func(ctx context.Context, config interface{}) (interface{}, error) {
