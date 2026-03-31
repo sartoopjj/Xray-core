@@ -147,9 +147,9 @@ func copyConfig(c *tls.Config) *utls.Config {
 		KeyLogWriter:                   c.KeyLogWriter,
 		EncryptedClientHelloConfigList: c.EncryptedClientHelloConfigList,
 	}
-	// if config.EncryptedClientHelloConfigList != nil {
-	// 	config.NextProtos = c.NextProtos
-	// }
+	if config.EncryptedClientHelloConfigList != nil {
+		config.NextProtos = c.NextProtos
+	}
 	return config
 }
 
